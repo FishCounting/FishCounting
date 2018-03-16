@@ -56,7 +56,7 @@ void loop(){
 		double lightAnalog = analogRead(A0);
 		if (lightAnalog > 800)
 			if (isLight) {
-				count++;
+				Serial.print("a");
 				isLight = false;
 			}
 			delay (200);
